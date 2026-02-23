@@ -4,7 +4,7 @@ export const ProfileCard = ({ name,imagen, periods, activePeriod }) => {
     
   return (
     <div className="profile-card">
-      <div className="avatar"><img src="../public/image-jeremy.png" alt="" /></div>
+      <div className="avatar"><img src="../public/image-jeremy.png" width={60} alt="" /></div>
       <p className="report-label">Report for</p>
       <h2 className="profile-name">{name}</h2>
       <div className="period-list">
