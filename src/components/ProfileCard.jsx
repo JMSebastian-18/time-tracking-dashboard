@@ -9,7 +9,9 @@ export const ProfileCard = ({ name,imagen, periods, activePeriod }) => {
       <h2 className="profile-name">{name}</h2>
       <div className="period-list">
         {periods.map((period) => (
-          <span key={period} className={period === activePeriod ? "active" : ""}>
+          <span key={period} className={period === activePeriod ? "active" : ""
+            
+          }>
             {period}
           </span>
         ))}
